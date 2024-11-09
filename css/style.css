@@ -51,9 +51,11 @@ nav ul a {
     font-size: 24px;
     color: var(--color-green);
     text-decoration: none;
-    margin: 0 35px;
 }
 
+nav ul a svg {
+    display: none;
+}
 
 section {
     height: 1500px;

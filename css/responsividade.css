@@ -1,8 +1,25 @@
+/* Small desktop */
+@media(max-width: 1000px) {
+     header .container {
+          width: 100%;
+     }
+
+     nav {
+          padding: 0 30px;
+     }
+
+
+     nav ul a {
+          font-size: 10px;
+     }
+
+}
+
+
 /* Tablet */
 @media (max-width: 767px) {
    header .container {
         width: 100%;
-        background: red;
    }
 
    header .container img {
@@ -31,5 +48,22 @@
 @media (max-width: 480px) {
     header .container {
         padding: 0 40px;
+    }
+
+    nav {
+     position: fixed;
+     width: 100%;
+     bottom: 0;
+     top: unset;
+     padding: 0 15px;
+    }
+
+    nav ul a {
+     font-size: 12px;
+    }
+
+    nav ul a svg {
+     display: block;
+     margin: 0 auto 10px;
     }
 }
