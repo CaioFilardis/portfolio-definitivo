@@ -12,6 +12,10 @@ header .container {
     padding: 0px 100px;
 }
 
+header .container img {
+    display: none;
+}
+
 header .container h1 {
     color: var(--color-green);
 }
@@ -34,7 +38,13 @@ nav {
 }
 
 nav img {
-    height: 65px;
+    height: 60px;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul a {
@@ -43,6 +53,7 @@ nav ul a {
     text-decoration: none;
     margin: 0 35px;
 }
+
 
 section {
     height: 1500px;
