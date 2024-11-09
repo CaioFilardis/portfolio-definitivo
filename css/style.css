@@ -1,3 +1,11 @@
+.title-purple {
+    color: var(--color-purple);
+}
+
+.title-green {
+    color: var(--color-green);
+}
+
 /* Header */
 
 header {
@@ -16,13 +24,12 @@ header .container img {
     display: none;
 }
 
-header .container h1 {
-    color: var(--color-green);
-}
 
 header .container button {
     margin-top: 40px;
 }
+
+
 
 /* Nav */
 nav {
@@ -57,6 +64,22 @@ nav ul a svg {
     display: none;
 }
 
-section {
-    height: 1500px;
+/* Sobre mim */
+.about-me {
+    display: flex;
+    padding: 100px;
+}
+
+.about-me .container {
+    width: 50%;
+    padding-right: 45px;
+}
+
+.about-me .img-container {
+    width: 50%;
+    text-align: center;
+}
+
+.about-me .img-container img {
+    width: 100%;
 }
