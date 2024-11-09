@@ -1,0 +1,49 @@
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - var(--menu-height));
+}
+
+header .container {
+    width: 50%;
+    height: fit-content;
+    padding: 0px 100px;
+}
+
+header .container h1 {
+    color: var(--color-green);
+}
+
+header .container button {
+    margin-top: 40px;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: var(--menu-height);
+    padding: 0 100px;
+    background-color: var(--color-dark);
+    
+}
+
+nav img {
+    height: 65px;
+}
+
+nav ul a {
+    font-size: 24px;
+    color: var(--color-green);
+    text-decoration: none;
+    margin: 0 35px;
+}
+
+section {
+    height: 1500px;
+}
