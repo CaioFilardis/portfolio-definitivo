@@ -121,7 +121,7 @@ nav ul a svg {
     background-color: #2f3034;
     border: 1px solid var(--color-purple);
     border-radius: 16px;
-    padding: 45px 25px;
+    padding: 40px 25px;
 
     display: flex;
     flex-direction: column;
@@ -137,5 +137,3 @@ nav ul a svg {
 .services-card + .services-card {
     margin-left: 10px;
 }
-
-/* Portfólio */
