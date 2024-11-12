@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Caio Filardis</title>
 
     <!-- Links -->
     <link rel="stylesheet" href="css/reset.css">
@@ -18,32 +18,32 @@
 <body>
 
     <!-- Cabecalho -->
-    <header>
+    <header id="cabecalho">
         <div class="container">
-            <img src="img/Logo.png" alt="Logo">
+            <a href="#cabecalho"><img src="img/Logo.png" alt="Logo"></a>
             <h2>Hello, </h2>
             <h1 class="title-green">I am Caio Filardis</h1>
             <p>Sou assistente de TI terceirizado. Trabalho também com desenvolvimento web e sistemas(PHP ou Java). Lorem
                 ipsum dolor sit amet consectetur, adipisicing elit. Nam, eveniet sed porro eligendi autem ea obcaecati
                 rerum omnis et dicta labore inventore quibusdam adipisci aut minus impedit sint quia sit.</p>
-            <button>Entre em Contato</button>
+            <button type="submit">Entre em Contato</button>
         </div>
     </header>
 
     <!-- Menus -->
     <nav>
-        <img src="img/Logo.png" alt="Logo">
+        <a href="#cabecalho"><img src="img/Logo.png" alt="Logo"></a>
         <ul>
-            <a href="#"><i data-feather="user"></i>Sobre mim</a>
-            <a href="#"><i data-feather="briefcase"></i>Serviços</a>
-            <a href="#"><i data-feather="image"></i>Portfólio</a>
-            <a href="#"><i data-feather="list"></i>Currículo</a>
-            <a href="#"><i data-feather="send"></i>Contato</a>
+            <a href="#aboutMe"><i data-feather="user"></i>Sobre mim</a>
+            <a href="#services"><i data-feather="briefcase"></i>Serviços</a>
+            <a href="#portfolio"><i data-feather="image"></i>Portfólio</a>
+            <a href="#curriculo"><i data-feather="list"></i>Currículo</a>
+            <a href="#contact"><i data-feather="send"></i>Contato</a>
         </ul>
     </nav>
 
     <!-- Sobre mim -->
-    <section class="about-me">
+    <section class="about-me" id="aboutMe">
         <div class="container">
             <h1 class="title-green">Sobre mim</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo natus, illum ipsum adipisci aliquam,
@@ -62,7 +62,7 @@
     </section>
 
     <!-- Serviços -->
-     <section class="services">
+     <section class="services" id="services">
         <h1 class="title-purple">Serviços</h1>
         <div class="services-container">
             <div class="services-card">
@@ -83,11 +83,13 @@
         </div>
      </section>
 
-     <section class="portfolio">
+     <!-- Portfólio -->
+     <section class="portfolio" id="portfolio">
         <h1 class="title-green">Portfólio</h1>
         <div class="portfolio-container">
             <div class="portfolio-card">
                 <div class="img-container">
+                    <div class="line green"></div>
                     <img src="img/projeto01.png" alt="Cardápo Online">
                 </div>
                 <div class="languange-container">
@@ -102,6 +104,7 @@
             </div><!-- protfolio-card -->
             <div class="portfolio-card">
                 <div class="img-container">
+                    <div class="line green"></div>
                     <img src="img/projeto01.png" alt="Cardápo Online">
                 </div>
                 <div class="languange-container">
@@ -119,6 +122,7 @@
             </div><!-- protfolio-card -->
             <div class="portfolio-card">
                 <div class="img-container">
+                    <div class="line green"></div>
                     <img src="img/projeto01.png" alt="Cardápo Online">
                 </div>
                 <div class="languange-container">
@@ -132,6 +136,31 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore eligendi molestias aspernatur esse blanditiis deleniti? Laudantium, quasi repudiandae magni ea alias iste fugit dolorem consectetur facere reprehenderit porro. Sapiente?</p>
             </div><!-- protfolio-card -->
         </div><!-- portfolio-container -->
+     </section>
+
+     <!-- Currículo -->
+     <section class="curriculum" id="curriculo">
+        <h1 class="title-green">Currículo</h1>
+        <div class="container">
+            <img class="curriculum-img" src="img/curriculum.png" alt=" Curriculo" width="500px" height="500px">
+            <div class="content">
+                <div class="curriculum-info">
+                    <span>Nome:</span><b>Caio Filardis</b>
+                    <span>Idade:</span><b>24 Anos</b>
+                    <span>Formação:</span><b>Bacharelado em Sistemas de informação</b>
+                    <span>Cidade:</span><b>Rio de Janeiro</b>
+                    <span>Telefone:</span><b>Caio (21) 99529-1891</b>
+                    <span>Email:</span><b>caio.filardis@hotmail.com</b>
+                    <span>Freelancer:</span><b>Disponível</b>
+                    <span>Experiência:</span><b>HTML, CSS, JavaScript, PHP, Java, ...</b>
+                    <span>Idiomas:</span><b>Inglês (técnico)</b>
+                </div>
+                <button class="secondary-button">
+                    <img src="img/download.svg" alt="" width="20px">
+                    Downloand
+                </button>
+            </div>
+        </div>
      </section>
 
     <script>
